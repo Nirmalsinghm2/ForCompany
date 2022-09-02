@@ -1,0 +1,136 @@
+.top_container{
+    left: 0;
+    height: auto;
+    min-height: 0;
+    padding: 120px 0;
+    
+}
+
+.top.left_container{
+    display: flex;
+    margin: 0;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: start;
+}
+
+.top .top_container{
+    max-width: 50%;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 50%;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+}
+
+.intro {
+    position: relative;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;  
+    align-items: center;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+
+}
+
+.top .h2, .top h2 {
+    position: relative;
+    padding-bottom: 39px;
+    margin-bottom: 50px;
+    margin-left: 50px ;
+}
+
+.text_shadow{
+    text-shadow: 5px 9px 0 rgb(0 0 0 / 15%);
+}
+
+h2{
+    font-family: Tungsten Rounded,sans-serif;
+    font-size: 140px;
+    line-height: 1;
+    text-transform: uppercase;
+    text-shadow: 5px 9px 0 rgb(0 0 0 / 15%);
+
+}
+
+h2 span{
+    display: block;
+    margin-bottom: -11px;
+    font-size: 80px;
+    font-weight: 400;
+} 
+
+p{
+    margin-left :13px; ;
+}
+
+.split {
+    height: auto;
+    width: 50%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 70px;
+  }
+
+
+.right{
+    right: 0;
+}
+
+.gif_img{
+    height:45em;
+}
+
+
+.services {
+    background: #ffffff;
+    background-size: cover;
+    /* display: flex; */
+    /* padding: 50px; */
+    margin-left: 14px;
+}
+
+
+.section_heading {
+    font-size:  35px !important;
+    margin: 50px 0 0px 0 !important;
+    position: relative !important;
+    padding-bottom: 20px !important;
+    text-transform: uppercase !important;
+}
+
+.container_services {
+    max-width: 1200px;
+    margin-left: 70px;
+}
+
+
+.content_service {
+    /* padding: 16px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px 0 0 0;
+}
+
+.content_service>mat-card {
+    width: 280px;
+    height: 431px;
+}
+
+@media (max-width:1200px ) {
+    .content_service mat-card {
+        width: 200px;
+        height: 380px;
+    }
+  }
+  @media (max-width:930px) {
+    .content_service mat-card {
+        width: 150px;
+        height: 300px;
+    }
+  }

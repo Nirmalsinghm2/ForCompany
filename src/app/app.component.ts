@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'GargiSolution';
+  loader = true; 
+  
+  ngOnInit(): void {
+   setTimeout(()=>{                           
+     this.loader = false;
+ }, 2000);
+ }
 }
